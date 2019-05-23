@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_image_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/tv_matkul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_image_app"
+        android:text="Matkul"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_mulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_matkul"
+        android:layout_toRightOf="@+id/iv_image_app"
+        android:text="Mulai"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_hubung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_matkul"
+        android:layout_toRightOf="@+id/tv_mulai"
+        android:text=" - "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_selesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_matkul"
+        android:layout_toRightOf="@+id/tv_hubung"
+        android:text="Selesai"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_ruang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_matkul"
+        android:textSize="20sp"
+        android:gravity="right"
+        android:text="Ruang"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_ruang"
+        android:gravity="right"
+        android:text="Kelas"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tv_kapan"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_matkul"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@id/tv_selesai"
+        android:background="@drawable/corner_colorprimary"
+        android:gravity="center"
+        android:text="kapan"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

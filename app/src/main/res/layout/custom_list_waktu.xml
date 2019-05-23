@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_waktu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="10dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear_hari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/tv_min"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Min"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_sen"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Sen"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_sel"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Sel"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_rab"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Rab"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_kam"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Kam"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_jum"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/corner_grey"
+                android:text="Jum"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_sab"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_grey"
+                android:text="Sab"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/hitam"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_ruang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_hari"
+            android:layout_marginLeft="10dp"
+            android:text="Ruang"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_waktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_hari"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/tv_ruang"
+            android:gravity="right"
+            android:text="Waktu"
+            android:textColor="@color/colorAccent" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

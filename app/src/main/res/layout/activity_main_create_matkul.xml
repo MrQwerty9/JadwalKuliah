@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.CreateMatkulActivity">
+
+    <EditText
+        android:id="@+id/et_matkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/putih"
+        android:theme="@style/MyEditTextStyle"
+        android:hint="Mata Kuliah"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/abuLight" />
+
+    <EditText
+        android:id="@+id/et_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/putih"
+        android:theme="@style/MyEditTextStyle"
+        android:hint="Kelas"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/abuLight" />
+
+    <EditText
+        android:id="@+id/et_dosen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyEditTextStyle"
+        android:backgroundTint="@color/putih"
+        android:hint="Dosen"
+        android:textColor="@color/putih"
+        android:textColorHint="@color/abuLight" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/corner_colorprimary"
+        android:text="simpan" />
+
+
+</LinearLayout>
