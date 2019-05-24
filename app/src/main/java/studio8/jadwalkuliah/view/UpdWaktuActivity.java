@@ -46,7 +46,7 @@ public class UpdWaktuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_upd_waktu);
+        setContentView(R.layout.activity_upd_waktu);
 
         db = new dbHandler(this);
         alarm = new Alarm(this);

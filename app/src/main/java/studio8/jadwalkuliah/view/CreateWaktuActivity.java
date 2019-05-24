@@ -49,7 +49,7 @@ public class CreateWaktuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_create_waktu);
+        setContentView(R.layout.activity_create_waktu);
 
         Intent getMainWaktu = this.getIntent();
         id_matkul = getMainWaktu.getStringExtra("id_matkul");

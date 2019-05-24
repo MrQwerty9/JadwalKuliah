@@ -22,7 +22,7 @@ public class CreateMatkulActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_create_matkul);
+        setContentView(R.layout.activity_create_matkul);
 
         db = new dbHandler(this);
 
