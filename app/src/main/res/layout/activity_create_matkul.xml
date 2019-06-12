@@ -14,30 +14,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/putih"
-        android:theme="@style/MyEditTextStyle"
         android:hint="Mata Kuliah"
         android:textColor="@color/putih"
-        android:textColorHint="@color/abuLight" />
+        android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle" />
 
     <EditText
         android:id="@+id/et_kelas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/putih"
-        android:theme="@style/MyEditTextStyle"
         android:hint="Kelas"
         android:textColor="@color/putih"
-        android:textColorHint="@color/abuLight" />
+        android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle" />
 
     <EditText
         android:id="@+id/et_dosen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/MyEditTextStyle"
         android:backgroundTint="@color/putih"
         android:hint="Dosen"
         android:textColor="@color/putih"
-        android:textColorHint="@color/abuLight" />
+        android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle" />
 
     <Button
         android:id="@+id/btn_simpan"

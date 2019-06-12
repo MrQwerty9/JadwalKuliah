@@ -21,7 +21,7 @@ public class Alarm {
     }
 
     public void addAlarm(String id, String[] arrHari, Calendar mulai, Calendar selesai){
-        int menitBefore = 1;
+        int menitBefore = 10;
         long durasi = selesai.getTimeInMillis() - mulai.getTimeInMillis();
 
         Log.d("myTag", "mulai"+mulai.getTime().toString());

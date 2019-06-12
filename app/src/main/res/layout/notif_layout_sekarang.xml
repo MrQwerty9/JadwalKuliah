@@ -10,9 +10,9 @@
         android:id="@+id/iv_image_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="10dp" />
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/tv_matkul"
@@ -55,10 +55,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/tv_matkul"
-        android:textSize="20sp"
         android:gravity="right"
         android:text="Ruang"
-        android:textColor="@color/abu" />
+        android:textColor="@color/abu"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_kelas"

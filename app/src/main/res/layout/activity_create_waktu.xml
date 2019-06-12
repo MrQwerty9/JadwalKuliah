@@ -110,12 +110,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:backgroundTint="@color/putih"
-        android:theme="@style/MyEditTextStyle"
         android:editable="false"
         android:hint="Waktu Mulai"
         android:paddingTop="0dp"
         android:textColor="@color/putih"
         android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle"
         tools:ignore="Deprecated" />
 
     <TextView
@@ -132,13 +132,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/putih"
-        android:theme="@style/MyEditTextStyle"
         android:editable="false"
         android:focusableInTouchMode="false"
         android:hint="Waktu Selesai"
         android:paddingTop="0dp"
         android:textColor="@color/putih"
         android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle"
         tools:ignore="Deprecated" />
 
     <EditText
@@ -146,10 +146,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/putih"
-        android:theme="@style/MyEditTextStyle"
         android:hint="Ruang"
         android:textColor="@color/putih"
-        android:textColorHint="@color/abuLight" />
+        android:textColorHint="@color/abuLight"
+        android:theme="@style/MyEditTextStyle" />
 
     <Button
         android:id="@+id/btn_simpan"

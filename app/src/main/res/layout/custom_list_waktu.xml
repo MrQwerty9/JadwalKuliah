@@ -4,9 +4,9 @@
     android:id="@+id/cv_waktu"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
     card_view:cardElevation="5dp"
-    card_view:cardUseCompatPadding="true"
-    card_view:cardCornerRadius="10dp">
+    card_view:cardUseCompatPadding="true">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -25,8 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Min"
                 android:gravity="center"
+                android:text="Min"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -37,8 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Sen"
                 android:gravity="center"
+                android:text="Sen"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -49,8 +49,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Sel"
                 android:gravity="center"
+                android:text="Sel"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -61,8 +61,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Rab"
                 android:gravity="center"
+                android:text="Rab"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -73,8 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Kam"
                 android:gravity="center"
+                android:text="Kam"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -85,8 +85,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="3dp"
                 android:background="@drawable/corner_grey"
-                android:text="Jum"
                 android:gravity="center"
+                android:text="Jum"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
@@ -96,8 +96,8 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/corner_grey"
-                android:text="Sab"
                 android:gravity="center"
+                android:text="Sab"
                 android:textAlignment="center"
                 android:textColor="@color/hitam"
                 android:textSize="14sp" />
